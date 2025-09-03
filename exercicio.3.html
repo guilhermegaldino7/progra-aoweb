@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Salário e Comissão</title>
+</head>
+<body>
+
+    <h2>Calculadora de Salário e Comissão</h2>
+
+    <form action="calcula_salario.php" method="post">
+        <label for="salario_fixo">Salário Fixo (R$):</label>
+        <input type="number" name="salario_fixo" id="salario_fixo" step="0.01" required>
+        <br><br>
+        <label for="vendas">Valor Total de Vendas (R$):</label>
+        <input type="number" name="vendas" id="vendas" step="0.01" required>
+        <br><br>
+        <input type="submit" value="Calcular Salário Final">
+    </form>
+
+</body>
+</html>
